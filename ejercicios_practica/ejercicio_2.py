@@ -34,3 +34,22 @@ copia_texto_1 = texto_1  # Copia de la variable texto_1
 
 # Verifique que copia_texto_1 es distinta a texto_2
 # Imprima en pantalla según corresponda
+
+if ( texto_1 > texto_2) :
+    print ( " {} es mayor a {} " .format ( texto_1 , texto_2))
+else :
+    print ( " {} es mayor a {} " .format ( texto_2 , texto_1))
+
+if len(texto_1) > len( texto_2):
+    print ( " {} tiene mas letras que {} " .format ( texto_1 , texto_2 ))
+else :
+    print ( " {} tiene mas letras que {} " .format ( texto_2 , texto_1 ))
+
+if (texto_1 [0] ) > ( texto_2 [0]):
+    print ( " la primer letra de {} es mayor alfabeticamente que la primer letra de {} " .format ( texto_1 , texto_2 ))
+
+else :
+    print ( " la primer letra de {} es mayor alfabeticamente que la primer letra de {} " .format ( texto_2 , texto_1 ))
+
+if ( texto_1 == copia_texto_1) and ( texto_2 != copia_texto_1 ):
+    print ( "{} es igual a {} y desigual a {} " .format ( copia_texto_1 , texto_1 , texto_2 ))

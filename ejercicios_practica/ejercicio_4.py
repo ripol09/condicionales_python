@@ -32,3 +32,18 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+if ( texto_1 > texto_2):
+    print ( "{} es mayor a {} " .format ( texto_1 , texto_2 ))
+else:
+    print ( "{} es mayor a {} " .format ( texto_2 , texto_1 ))
+
+texto_3 = (int ( 5 ))
+texto_4 = (int ( 7 ))
+
+if ( texto_3 > texto_4):
+    print ( "{} es mayor a {} " .format ( texto_3 , texto_4 ))
+else:
+    print ( "{} es mayor a {} " .format ( texto_4 , texto_3 ))
+
+

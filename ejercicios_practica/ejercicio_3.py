@@ -10,7 +10,7 @@
 # Ejercicios de práctica numérica
 
 # Condicionales anidados
-numero_1 = 7
+numero_1 = 2
 numero_2 = -2
 
 # Verifique si el numero_1 es mayor a 5
@@ -35,3 +35,26 @@ puntaje = 70
 
 # Debe imprimir en pantalla la calificacion
 # Utilizar "if" anidados
+
+
+if ( numero_1 > 5 ):
+    if ( numero_2 > 0 ):
+        print ( " resp=1 ")
+    else :
+        print ( " resp=2 ")
+else:
+    if (numero_2 > 5 ):
+        print ( " respu=3 ")
+    else:
+        print ( " resp=4 ")
+
+if ( puntaje >= 90 ):
+    print ( " A " )
+if ( puntaje >= 80 ):
+    print ( " B " )
+if ( puntaje >= 70 ):
+    print ( " C " )
+if ( puntaje >= 60 ):
+    print ( " D " )
+if ( puntaje < 60 ):
+    print ( " F ")
